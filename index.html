@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" class="links" href="#">Dylan Joseph</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="links"><a href="#home">HOME</a></li>
+                <li class="links"><a href="#sliding gallery">Sliding Gallery</a></li>
+                <li class="links"><a href="#grid gallery">Grid Gallery</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <div class="container">
+        <center>
+            <section id="home"></section>
+            <section id="sliding gallery">
+            <h2 id="yo">Famous Marvel Characters!</h2>
+            <h2 id="yo">Sliding Gallery </h2>
+            </section>
+        </center>
+        <div id="myCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <a href="https://studio.code.org/projects/playlab/RgXNuWAmybqqYrgqIptS2050yE_QSHAkv4kdIJgaSTM" target="_blank">
+                            <img src="thanos.jpg" class="img-responsive"></a>
+                        <div class="carousel-content">
+                            <p>Thanos</p>
+                            <br> <br>
+                            <ol class="carousel-indicators">
+                                <li data-target=#myCarousel data-slide-to="0" class="active"></li>
+                                <li data-target="myCarousel" data-slide-to="1"></li>
+                                <li data-target="myCarousel" data-slide-to=2></li>
+                            </ol>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a href="https://studio.code.org/projects/playlab/7GFvDnrLQJZwKxL1FqhhPE3GHTt1wsCD62KBUmRFJhc">
+                            <img src="black.jpg" class="img-responsive"></a>
+                        <div class="carousel-content">
+                            <p>Black panter</p>
+                            <br> <br>
+                        
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a href="https://studio.code.org/projects/playlab/ihnbeu2ecBAyxSeTle8FWZ8s4Zo-5wRqfc5GYAJWb0U">
+                            <img src="Iron.jpg" class="img-responsive"></a>
+                        <div class="carousel-content">
+                            <p>Iron man</p>
+                            <br> <br>
+                            
+                        </div>
+
+                    </center>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+        <section id="grid gallery">
+        <center>
+            <h2 id="yo"> Grid Gallery</h2>
+            <span> <im  g src="america.jpg"> <img src="hawkeye.jpg"> <img src="nick%20furry.jpg"><img src="thor.jpg"><img src="groot.jpg"><img src="racoon.jpg">
+                </im></span>
+         
+        </center>
+            </section>
+        <center>
+           <img src="avengers.gif" id="Java">
+        </center>
+    </div>
+    </body>
+</html>
